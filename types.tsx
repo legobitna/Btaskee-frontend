@@ -8,8 +8,8 @@ export type BottomTabParamList = {
   TabTwo: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type ServicePageParamList = {
+  ServicePage: undefined;
 };
 
 export type TabTwoParamList = {

@@ -6,18 +6,20 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Service: {
             screens: {
-              TabOneScreen: 'one',
+              ServicePage: 'service',
             },
           },
-          TabTwo: {
+          "Order List": {
             screens: {
-              TabTwoScreen: 'two',
+              OrderList: 'order-list',
             },
           },
         },
       },
+      HomeCleaning: 'home-cleaning',
+
       NotFound: '*',
     },
   },
